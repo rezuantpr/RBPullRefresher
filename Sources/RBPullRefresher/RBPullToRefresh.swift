@@ -56,7 +56,6 @@ public extension RBPullRefresher where Base: UIScrollView {
     }
   }
   
-  
   func set(_ direction: Direction) {
     assert(base is UICollectionView)
     base.direction = direction

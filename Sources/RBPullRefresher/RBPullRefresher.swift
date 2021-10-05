@@ -19,6 +19,5 @@ public struct RBPullRefresher<Base> {
   }
 }
 
-//
 extension UIScrollView: RBPullRefresherExtensionsProvider {}
 
