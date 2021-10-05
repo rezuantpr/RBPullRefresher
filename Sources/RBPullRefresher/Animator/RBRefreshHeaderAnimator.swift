@@ -65,8 +65,7 @@ open class RBRefreshHeaderAnimator: UIView, RBRefreshProtocol, RBRefreshAnimator
     let h = s.height
     
     UIView.performWithoutAnimation {
-      indicatorView.center = CGPoint.init(x: titleLabel.frame.origin.x - 16.0, y: h / 2.0)
+      indicatorView.center = CGPoint.init(x: w / 2.0 - 16.0, y: h / 2.0)
     }
   }
-  
 }
